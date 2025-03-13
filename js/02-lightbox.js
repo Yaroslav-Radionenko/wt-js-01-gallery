@@ -1,4 +1,4 @@
-import { galleryItems } from '../gallery-items.js';
+import { galleryItems } from './gallery-items.js';
 // Ваш код
 <li class="gallery__item">
     <a class="gallery__link" href="large-image.jpg">

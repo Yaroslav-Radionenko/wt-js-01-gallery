@@ -1,4 +1,4 @@
-import { galleryItems } from '../gallery-items.js';
+import { galleryItems } from './gallery-items.js';
 // Ваш код
 
 const refs = {
@@ -14,17 +14,6 @@ refs.galleryListEl.insertAdjacentHTML('beforeend', galleryMarkup);
 refs.galleryListEl.addEventListener('click', onGalleryItemClick);
 refs.modalCloseBtnEl.addEventListener('click', closeModal);
 refs.lightboxOverlayEl.addEventListener('click', closeModal); // 7.
-
-<li class="gallery__item">
-    <a class="gallery__link" href="large-image.jpg">
-        <img
-            class="gallery__image"
-            src="small-image.jpg"
-            data-source="large-image.jpg"
-            alt="Image description"
-        />
-    </a>
-</li>
 
 function createGalleryMarkup(galleryItems) {
     return galleryItems
