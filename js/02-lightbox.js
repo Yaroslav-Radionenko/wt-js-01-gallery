@@ -1,8 +1,6 @@
 import { galleryItems } from './gallery-items.js';
 // Ваш код
 
-import { galleryItems } from './gallery-items.js';
-
 // це gallery DOM element
 const galleryContainer = document.querySelector(".gallery");
 
@@ -34,7 +32,5 @@ new SimpleLightbox('.gallery a',
         captionsData: "alt",
     }
 );
-
-console.log(galleryItems);
 
 console.log(galleryItems);
